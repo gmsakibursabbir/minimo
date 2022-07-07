@@ -1,0 +1,279 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* body start  */
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #626262;
+  /* list-style: none;
+  text-decoration: none; */
+}
+/* body end  */
+
+/* header start  */
+
+header {
+  margin: 55px 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  /* border: 1px solid black; */
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  width: 8%;
+  /* border: 1px solid red; */
+  /* padding-top: 50px; */
+  padding-left: 30px;
+  margin-left: 35px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.menu {
+  width: 65%;
+  /* border: 1px solid red; */
+  float: right;
+  padding-top: 5px;
+}
+
+.menu ul {
+  float: right;
+}
+
+.menu ul li {
+  list-style: none;
+  float: left;
+}
+
+.menu ul li a {
+  /* margin-left: 35px;
+  margin-right: 35px; */
+  margin: 0 50px;
+  color: #626262;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  border-bottom: 1px solid transparent;
+}
+
+.menu ul li a:last-child a {
+  margin-right: 0;
+}
+
+.menu ul li a:hover {
+  border-bottom: 1.8px solid #626262;
+  transition: 0.4s;
+}
+
+/*effect-underline*/
+/* .menu ul li a::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.menu ul li a:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+} */
+
+/* .menu ul li a::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  border-radius: 2px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: #b4ad9ea2;
+  z-index: -1;
+  transition: transform 0.3s ease;
+} */
+
+/* .menu ul li:last-child a {
+  padding-right: 0;
+} */
+
+/* header end  */
+
+/* banner start  */
+.perfect {
+  padding: 100px 0 60px;
+}
+
+.banner {
+}
+
+.b_img {
+}
+
+.b_img img {
+  width: 100%;
+}
+/* banner end  */
+
+/* perfect start  */
+.perfect {
+}
+
+.container2 {
+  width: 80%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+.p_content {
+}
+
+.c_light {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+
+.c_title {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 20px 0 25px;
+}
+
+.c_text {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  line-height: 26px;
+}
+
+.mb_45 {
+  margin-bottom: 49px;
+}
+/* perfect end */
+
+/* blog start  */
+.blog {
+  margin-bottom: 50px;
+}
+
+.b_content {
+  overflow: hidden;
+}
+
+.b_single {
+  margin-top: 80px;
+
+  float: left;
+  width: 48%;
+  /* border: 1px solid red; */
+}
+
+.b_single:nth-child(even) {
+  margin-left: 4%;
+}
+
+.s_img {
+  margin-bottom: 25px;
+}
+
+.s_img img {
+  width: 100%;
+  border-radius: 5px;
+}
+/* blog end  */
+
+/* news start */
+.news {
+  background-color: #f0f0f0;
+  padding: 70px 0;
+  margin: 0 auto;
+}
+.signup {
+  text-align: center;
+}
+
+.signup .s_h2 {
+  color: #626262;
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+
+.s_form {
+  width: 400px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  position: relative;
+}
+
+.s_form input {
+  font-family: "Playfair Display", serif;
+  /* font-weight: 400; */
+  color: #626262;
+  font-size: 14px;
+  width: 400px;
+  height: 45px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  background-color: transparent;
+}
+
+.s_form input:focus {
+  outline: 0;
+}
+
+.s_form button {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  top: 18px;
+  right: 3px;
+}
+
+.s_form button:focus {
+  outline: 0;
+}
+
+.s_form button img {
+}
+
+/* news end */
+
+/* blog2 start  */
+.blog2 {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.h2_load {
+  margin: 0 auto;
+  padding: 15px 20px;
+  border: 2px solid black;
+}
+/* blog2 end  */
+
+/* footer start */
+footer {
+}
+
+.f_content {
+  background-color: #adadad;
+  padding: 40px 0;
+  margin: 0 auto;
+  min-height: 10px;
+}
+/* footer end  */
