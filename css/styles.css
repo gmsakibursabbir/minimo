@@ -207,7 +207,7 @@ header {
 }
 
 .signup .s_h2 {
-  color: #626262;
+  color: #000000;
   margin-top: 0;
   margin-bottom: 70px;
 }
@@ -271,9 +271,62 @@ footer {
 }
 
 .f_content {
-  background-color: #adadad;
-  padding: 40px 0;
+  background-color: #f0f0f0;
+  padding: 40px 5%;
   margin: 0 auto;
-  min-height: 10px;
+  overflow: hidden;
+  /* min-height: 10px; */
 }
+
+/* Terms and conditions start  */
+.terms {
+  float: left;
+  width: 30%;
+}
+
+.terms ul {
+  /* float: left; */
+}
+
+.terms ul li {
+  list-style: none;
+}
+
+.terms ul li a {
+  padding: 0 20px;
+  font-family: "Playfair Display", serif;
+  color: #000000;
+  text-decoration: none;
+  float: left;
+}
+
+/* Terms and conditions end  */
+
+/* social links start */
+.social {
+  float: right;
+  width: 30%;
+  overflow: hidden;
+}
+
+.social ul {
+  float: right;
+  /* border: 1px solid red; */
+}
+
+.social ul li {
+  list-style: none;
+  float: left;
+}
+
+.social ul li a {
+  padding: 0 15px;
+  font-family: "Playfair Display", serif;
+  color: #000000;
+  text-decoration: none;
+}
+
+.social ul li a img {
+}
+/* social links end */
 /* footer end  */
